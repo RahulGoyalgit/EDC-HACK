@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="Form.css" />
+<script language="javascript">
+function f()
+{if(document.f1.t1.value=="admin" && document.f1.t2.value=="pass")
+{window.open('formpage.html')}
+else
+{alert("Only ADMIN can access")} 
+}</script>
+</head>
+<body>
+
+    <div class="container">
+        <ul>
+            <li class="one"><a href="Form.html">ADMIN LOGIN</a></li>
+            <!--
+            -->
+            <li class="two"><a href="Home.html">HOME </a></li>
+            <!--
+            -->
+            
+            <hr />
+        </ul>
+    </div>
+
+    <div class="loginbox">
+        <form name="f1">
+            <div class="heading">
+                <h1><font size="40px">Login</font></h1>
+            </div>
+            <input type="text" name="t1" placeholder="Enter Your Username" class="text" /><br />
+            <input type="password" name="t2" placeholder="Enter your Password.." class="text" /><br />
+            <input type="submit" name="submit" value="Submit" class="button" onClick=f()>
+
+        </form>
+    </div>
+    <div class="whiteb">
+
+
+    </div>
+
+
+</body>
+</html>

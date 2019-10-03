@@ -1,0 +1,103 @@
+body {
+  background-color: navajowhite;
+  margin: 0;
+  padding: 0;
+  color:black;æ
+}
+
+.box {
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form {
+  
+  background-color: tomato;
+  border-radius: 24px;
+  padding: 25px;
+
+}
+
+.box select {
+  border:none;
+  border-radius: 12px;
+
+  background-color:none;
+  
+  border: 2px solid #3499db;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 273px;
+  height: 50px;
+
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+}
+
+input {
+  border:none;
+  background-color: none;
+  color:black;
+  border: 2px solid #3499db;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 250px;
+  height: 30px;
+
+
+  font-size: 20px;
+
+}
+
+.text {
+    color:black;
+}
+
+.submit {
+  border-radius: 24px;
+  background: white;
+  color: Red;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: none;
+  border:2px solid  #2ecc71;
+transition: 0.5s;
+}
+
+.submit:hover {
+  background-color: #2ecc71;
+
+}
+
+.reset {
+  border-radius: 24px;
+  background: white;
+  color: red;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  box-shadow: none;
+  border:2px solid  #2ecc71;
+transition: 0.5s;
+  margin-right: 100px;
+}
+
+.reset:hover {
+  background-color: #2ecc71;
+
+}
